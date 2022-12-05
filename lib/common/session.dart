@@ -1,4 +1,4 @@
-part of '../config.dart';
+part of 'config.dart';
 
 class Session {
   static String get id => 'id';

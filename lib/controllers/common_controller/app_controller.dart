@@ -29,7 +29,7 @@ class AppController extends GetxController {
   void onReady() {
     // TODO: implement onReady
     getData();
-    rateValue = double.parse(appArray.currencyList[0]['INR'].toString());
+    //rateValue = double.parse(appArray.currencyList[0]['INR'].toString());
     update();
     super.onReady();
   }
